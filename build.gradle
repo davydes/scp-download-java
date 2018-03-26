@@ -20,6 +20,7 @@ mainClassName = 'App'
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
     compile 'com.google.guava:guava:23.0'
+    compile 'com.jcraft:jsch:0.1.54'
 
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
